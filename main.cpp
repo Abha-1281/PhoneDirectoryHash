@@ -107,8 +107,7 @@ public:
                 break;
             }
             else
-                index1
-                    = (index1 + 1) % size;
+                index1 = (index1 + 1) % size;
         }
         if (flag == 0)
             cout << "\nRecord not found";
